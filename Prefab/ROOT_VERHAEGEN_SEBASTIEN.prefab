@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857069115569481385}
   m_Layer: 0
-  m_Name: VERHAEGEN_SEBASTIEN
+  m_Name: ROOT_VERHAEGEN_SEBASTIEN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
