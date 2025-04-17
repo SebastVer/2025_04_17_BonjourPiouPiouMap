@@ -1,3 +1,14 @@
 {
-	"name": "be.SeblucVer.pioupioumap.Runtime"
+    "name": "be.SeblucVer.pioupioumap.Runtime",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
