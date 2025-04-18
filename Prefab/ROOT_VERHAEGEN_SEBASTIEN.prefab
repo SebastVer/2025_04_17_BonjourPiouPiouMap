@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4141986627976410634}
-  m_Father: {fileID: 857069115569481385}
+  m_Father: {fileID: 8986521598873318291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &736220608150886024
 MonoBehaviour:
@@ -106,12 +106,44 @@ Transform:
   m_GameObject: {fileID: 7612824068201909791}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.314, y: 0, z: 1.3686028}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8986521598873318291}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8405071817202124160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8986521598873318291}
+  m_Layer: 0
+  m_Name: Mon Ile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8986521598873318291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8405071817202124160}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29, y: 0.35, z: -6.4}
   m_LocalScale: {x: 1.094006, y: 1.094006, z: 1.094006}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7543091531706887192}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 857069115569481385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &67792390234748864
 PrefabInstance:
@@ -322,7 +354,8 @@ PrefabInstance:
       value: 2.778
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3158647365954026871, guid: b595d6bc7727e5e45a51d6527c75aab6, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7540194002701666949, guid: b595d6bc7727e5e45a51d6527c75aab6, type: 3}
       insertIndex: 0
