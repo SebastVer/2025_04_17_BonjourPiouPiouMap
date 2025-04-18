@@ -6,7 +6,7 @@ namespace Sebastien.QuickScript
     public class QuickRotationMono : MonoBehaviour
     {
         public Transform m_whatToRotation;
-        public float m_globalSpeedRotation = 360;
+        public float m_globalSpeedRotation = 20;
         public Vector3 m_rotationAxis = Vector3.up;
         public Space m_space = Space.Self;
 
